@@ -1,0 +1,11 @@
+**S1
+ip arp inspection vlan 1
+int range f0/23-24
+ip arp inspection trust
+exit
+
+do show ip arp inspection int
+
+do wr
+
+
